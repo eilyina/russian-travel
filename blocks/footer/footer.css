@@ -1,5 +1,5 @@
-.footer{
-    display:flex;
+.footer {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1184px;
@@ -11,40 +11,42 @@
 }
 
 @media screen and (max-width:1200px) {
-    .footer{
+    .footer {
 
         width: 96%;
     }
 }
 
 @media screen and (max-width:1024px) {
-    .footer{
+    .footer {
         max-width: 928px;
         padding-top: 88px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .footer{
+    .footer {
         max-width: 720px;
         padding-top: 64px;
     }
 }
+
 @media screen and (max-width:725px) {
-    .footer{
+    .footer {
         width: 70%;
-        padding: 64px 0 24px 16px ;
-        display:block;
+        padding: 64px 0 24px 16px;
+        display: block;
         margin: 0;
-    }}
+    }
+}
 
 
 @media screen and (max-width:320px) {
-    .footer{
+    .footer {
         max-width: 186px;
         width: 58%;
-        padding: 64px 0 24px 16px ;
-        display:block;
+        padding: 64px 0 24px 16px;
+        display: block;
         margin: 0;
     }
 }
