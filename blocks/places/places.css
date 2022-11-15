@@ -5,31 +5,33 @@
     display: grid;
     row-gap: 80px;
     box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width:1024px) {
     .places {
         padding: 92px 0 92px 0;
-        width: 96%;
+        max-width: 928px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:950px) {
     .places {
+        max-width: 720px;
         padding: 88px 0 90px 0;
-        width: 94%;
-
     }
 }
-@media screen and (max-width:610px) {
+
+
+@media screen and (max-width:730px) {
     .places {
+        width: 90%;
         padding: 64px 0 66px 0;
     }
 }
 
 @media screen and (max-width:320px) {
     .places {
-        padding: 64px 0 66px 0;
         width: 100%;
         row-gap: 50px;
     }

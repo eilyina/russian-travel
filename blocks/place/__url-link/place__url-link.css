@@ -1,19 +1,17 @@
-.place__url-link{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height, or 122% */
+.place__url-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
 
-text-decoration-line: underline;
-color: #FFFFFF;
-opacity: 1;
-transition: opacity 0.3s ease;
-
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
 
-.place__url-link:hover{
+.place__url-link:hover {
     opacity: 0.8;
 }
