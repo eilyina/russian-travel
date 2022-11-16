@@ -17,11 +17,19 @@
 
 @media screen and (max-width:950px) {
     .places {
-        max-width: 720px;
+        width: 90%;
         padding: 88px 0 90px 0;
     }
 }
 
+@media screen and (max-width:768px) {
+    .places {
+        padding: 88px 0 90px 0;
+        max-width: 720px;
+        width: 100%;
+
+    }
+}
 
 @media screen and (max-width:730px) {
     .places {
